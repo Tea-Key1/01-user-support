@@ -231,3 +231,90 @@ body
 {
     transform: scale(1, 1);
 }
+
+/* モバイル向けスタイル */
+@media (max-width: 1023px){
+  .text-box{
+    position: relative;
+    /* display: inline-block; */
+    margin-top: 22px;
+    /* padding: 0 9px; */
+    text-align: left;
+    font-size: 2vh;
+    font-style: oblique;
+    height: auto;
+    width: auto;
+    background: #FFF;
+    color: #4092df;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  .text-box p {
+  position: relative;
+  display: inline-block;
+  margin-top: 2vh;
+  padding: 0 9px;
+  line-height: 1;
+  font-size: 2vh;
+  height: auto;
+  width: auto;
+  color: #000000;
+  white-space: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+}
+
+/* デスクトップ向けスタイル */
+@media (min-width: 1024px) {
+  /* .text-box .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 2vh;
+    height: auto;
+    width: auto;
+    background: #FFF;
+    color: #4092df;
+    font-weight: bold;
+}
+.text-box p {
+    text-align: left; */
+    /* position: relative; */
+    /* float: left; */
+    /* margin: 0; 
+    padding: 0;
+    font-size: 1.5vh;
+    font-style: oblique;
+} */
+.text-box{
+  position: relative;
+  /* display: inline-block; */
+  margin-top: 22px;
+  /* padding: 0 9px; */
+  text-align: left;
+  font-size: 2vh;
+  font-style: oblique;
+  height: auto;
+  width: auto;
+  background: #FFF;
+  color: #4092df;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.text-box p {
+position: relative;
+display: inline-block;
+margin-top: 2vh;
+padding: 0 9px;
+line-height: 1;
+font-size: 2vh;
+height: auto;
+width: auto;
+color: #000000;
+white-space: normal;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+}
